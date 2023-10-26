@@ -1,5 +1,5 @@
 public class TrafficControllerEmpty implements TrafficController {
-	private TrafficRegistrar registrar;
+	private final TrafficRegistrar registrar;
 	
 	public TrafficControllerEmpty(TrafficRegistrar r) {
 		this.registrar = r;
